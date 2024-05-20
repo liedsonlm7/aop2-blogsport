@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Blogsport</h1>
+        <div class="page-title">
+            <h2>Contato</h2>
+        </div>
+    </header>
+    <ul class="navigator">
+        <li><a href="./index.html">Home</a></li>
+        <li>></li>
+        <li>Contato</li>
+    </ul>
+    <div class="form-container">
+        <div class="form-header">
+            <p>Sugestões / Feedback</p>
+        </div>
+        <div class="form-body">
+            <h2 class="form-title">Deixe sua sugestão</h2>
+            <p>Tem alguma sugestão ou feedback? Compartilhe conosco, ficaremos muito felizes em recebê-la!</p>
+            <form>
+                <div class="box-input">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" class="block" placeholder="Digite seu nome" minlength="1" maxlength="30"
+                    required/>
+                </div>
+                <div class="box-input">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="block" placeholder="Digite seu email" required/>
+                </div>
+                <div class="box-input">
+                    <p>Como você avalia a qualidade do conteúdo do blog?<span class="required-field">*</span></p>
+                    <input type="radio" id="good" name="avaliacao" value="Muito Boa" required>
+                    <label for="good">Muito Boa</label>
+                    <input type="radio" id="improve" name="avaliacao" value="Pode melhorar">
+                    <label for="improve">Pode melhorar</label>
+                    <input type="radio" id="normal" name="avaliacao" value="Regular">
+                    <label for="normal">Regular</label>
+                    <input type="radio" id="bad" name="avaliacao" value="Ruim ou péssima">
+                    <label for="bad">Ruim ou péssima</label>
+                </div>
+                <div class="box-input">
+                    <label for="description">Sugestão / Feedback</label>
+                    <textarea name="description" id="description" class="block" placeholder="Escreva sua sugestão ou feedback" cols="10"
+                    rows="5"></textarea>
+                </div>
+                <div class="optional-box">
+                    <p>Assine a nossa Newsletter</p>
+                    <ul class="optional-list">
+                        <li>
+                            <input type="checkbox" id="newsletter" name="optional[]" value="newsletter"/>
+                            <label for="newsletter">Quero assinar a newsletter e ficar por dentro de tudo que rola nos esportes mais populares do mundo</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="privacy" name="optional[]" value="privacy"/>
+                            <label for="privacy">Li e aceito os termos de privacidade do Blogsport</label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button-container">
+                    <input type="submit" value="Enviar" class="btn-submit" />
+                    <input type="reset" value="Limpar" class="btn-reset" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer id="footer">
+        <h2>Blogsport</h2>
+        <div class="nav-footer">
+            <nav>
+                <ul>
+                    <li><a href="#">Voltar ao topo</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </nav>
+        </div>
+        <p>2024 &copy; Todos os direitos reservados a Blogsport</p>
+    </footer>
+</body>
+</html>

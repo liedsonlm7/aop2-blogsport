@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: red;
+}
+
+#cabecalho {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar-inner {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+#nav-links li {
+    margin: 0;
+}
+
+#nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#nav-links a:hover {
+    color: #ec0e0e;
+}
+
+
+.container {
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    margin: 0 auto;
+    color: #333;
+}
+
+#main-container h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.home-image {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.home-image hr {
+    background-color: #222;
+    height: 3px;
+}
+
+.home-image img {
+    max-width: 100%;
+}
+
+.home-image h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.home-image p {
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 100px;
+    margin-bottom: 10%;
+}
+
+.post {
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.post img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.post .category-post {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.post .title {
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.title,
+.description,
+.update {
+    margin-bottom: 1rem;
+}
+
+#sidebar {
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#search-bar h4,
+#categories h4,
+#tags h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+#search-bar input[type="submit"] {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+
+#categories li {
+    margin-bottom: 10px;
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+#tags-container a {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5rem 0.7rem;
+    border: 0.3rem;
+}
+
+#tags-container a:hover {
+    background-color: #ddd;
+    color: #ec0e0e;
+}
+
+#footer {
+    background-color: #222;
+    border-top: 2px solid #000;
+    padding: 10px;
+    color: #fff;
+}
+
+#footer h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-footer ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.nav-footer a {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nav-footer a:hover {
+    color: #ec0e0e;
+}
+
+#footer p {
+    text-align: center;
+}

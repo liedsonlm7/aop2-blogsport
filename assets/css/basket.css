@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabecalho {
+    background-color: #ef5d0e;
+    color: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-title h2 {
+    margin: 0;
+    flex-grow: 1; 
+}
+
+nav {
+    flex-grow: 1; 
+    text-align: center; 
+}
+
+nav ul.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul.menu li {
+    margin: 0;
+}
+
+nav ul.menu li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+nav ul.menu li a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+.main-basket {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.navigator {
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.main-basket {
+    position: relative;
+}
+
+.main-image {
+    position: relative; 
+    max-width: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+    margin-left: -5%;
+}
+
+.main-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+    margin-left: -5%;
+}
+
+.btn-more {
+    display: inline-block;
+    background-color: #fff;
+    color: #222;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 45%;
+}
+
+.btn-more:hover {
+    background-color: #222;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.informacoes {
+    position: absolute;
+    top: 70%;
+    left: 12%;
+    color: #fff;
+}
+
+#franquias h2 {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+
+.franquias-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.franquias-logo-container img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#posts {
+    background-color: #222;
+    padding: 20px;
+}
+
+#posts h2 {
+    padding: 10px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+.baska-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 0px;
+    background-color: #222;
+    color: #fff;
+    padding: 25px;
+}
+
+.post {
+    width: calc(20% - 20px);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.post a {
+    color: #fff;
+}
+
+.post a:hover {
+    color: #ec0e0e;
+}
+
+.post img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.post .category-post {
+    display: inline-block;
+    background-color: #fff;
+    color: #222;
+    text-align: center;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.post .title {
+    margin-top: 10px;
+}
+
+.title a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.title a:hover {
+    color: #ec0e0e;
+}
+
+.title,
+.description,
+.update {
+    margin-bottom: 10px;
+}
+
+.button {
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn-posts {
+    display: inline-block;
+    position: relative;
+    background-color: #fff;
+    color: #555; 
+    font-family: Helvetica;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    margin-left: 46.5%;
+    margin-bottom: 70px;
+    top: 20px;
+}
+
+.btn-posts:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+#footer {
+    background-color: #ef5d0e;
+    border-top: 2px solid #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+#footer h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nav-footer ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 15px;
+}
+
+.nav-footer a {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nav-footer a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+#footer p {
+    text-align: center;
+}
